@@ -1,11 +1,14 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BlogList from '../components/BlogList.astro'
 ---
 
 <Layout>
-	<Welcome />
+	<h1>Welkom bij mijn blog!</h1>
+	<p>Hier kan je alles vinden over mijn laatste semester bij FDND!</p>
+	<ul>
+		<li>
+			<a href="/blog/week-1">blog</a>
+		</li>
+	</ul>
 </Layout>
