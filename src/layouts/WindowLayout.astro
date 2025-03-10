@@ -1,0 +1,115 @@
+---
+import "xp.css/dist/XP.css"
+import Layout from "./Layout.astro"
+---
+<Layout>
+<ul>
+  <li class="window">
+    <a href="/">
+
+    <section class="title-bar">
+      <h2 class="title-bar-text">Blog</h2>
+    </section>				
+    <div class="window-body">
+      <img src="https://media4.giphy.com/media/L1bqiQs0bibjqG9zXZ/200.webp?cid=790b7611o2de60ye6q8zfkkqw1tp2q0tubos2418kir677aw&ep=v1_gifs_search&rid=200.webp&ct=g">
+        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
+    </div>
+    </a>
+  </li>
+
+  <li class="window">
+    <a href="/">
+
+    <section class="title-bar">
+      <h2 class="title-bar-text">Blog</h2>
+    </section>				
+    <div class="window-body">
+        <img src="https://media2.giphy.com/media/mtkB58uJo4pXi/200.webp?cid=ecf05e47kfe5jltlsatom7w1tisqwz8zzvqt9ht582ob0p3b&ep=v1_gifs_search&rid=200.webp&ct=g">
+        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
+    </div>
+    </a>
+  </li>
+
+  <li class="window">
+    <a href="/">
+
+    <section class="title-bar">
+      <h2 class="title-bar-text">Blog</h2>
+    </section>				
+    <div class="window-body">
+        <img src="https://media1.giphy.com/media/26gsspfbt1HfVQ9va/200.webp?cid=82a1493byyt9wabi1iu9ef558i55l68e9tlb6ln60mma58od&ep=v1_gifs_trending&rid=200.webp&ct=g">
+        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
+    </div>
+    </a>
+  </li>
+
+  <li class="window">
+    <a href="/">
+
+    <section class="title-bar">
+      <h2 class="title-bar-text">Blog</h2>
+    </section>				
+    <div class="window-body">
+        <img src="https://media4.giphy.com/media/JrBKaxElWATK2D015P/giphy.webp?cid=790b7611pgdfx7tk2kgr5vt1s0atrdx43d67cx7rk97e1s22&ep=v1_gifs_search&rid=giphy.webp&ct=g">
+        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
+    </div>
+    </a>
+  </li>
+
+</ul>
+</Layout>
+
+<style>
+  ul {
+    padding-inline-start: 0;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+
+    @media (min-width:700px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 2em;
+    }
+  }
+
+  li {
+    list-style: none;
+    transition: .2s .2s ease;
+
+    &:hover{
+      transform: scale(1.2);
+      rotate: 2deg;
+    }
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  div {
+    min-height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+
+  img {
+    --ratio: 15em;
+    width: 15em;
+    height: 10em;
+    object-fit: cover;
+  }
+
+  p {
+    font-size: var(--regular-font-size );
+  }
+
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+
+</style>

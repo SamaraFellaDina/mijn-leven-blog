@@ -1,14 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import BlogList from '../components/BlogList.astro'
+import WindowLayout from '../layouts/WindowLayout.astro';
 ---
 
 <Layout>
 	<h1>Welkom bij mijn blog!</h1>
 	<p>Hier kan je alles vinden over mijn laatste semester bij FDND!</p>
-	<ul>
-		<li>
-			<a href="/blog/week-1">blog</a>
-		</li>
-	</ul>
+	<WindowLayout />
 </Layout>
