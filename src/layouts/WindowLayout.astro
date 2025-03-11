@@ -1,14 +1,13 @@
 ---
 import "xp.css/dist/XP.css"
 import Layout from "./Layout.astro"
-import data from "../data/data.json"
+import Data from "../data/data.json"
 ---
 <Layout>
-
   <ul>
-    {data.data.map(({ title, description, slug, gif }) => (
+    {Data.data.map(({ title, description, slug, gif }) => (
       <li class="window">
-        <a href="/">
+        <a href={slug}>
           <section class="title-bar">
             <h2 class="title-bar-text">{title}</h2>
           </section>				

@@ -1,0 +1,12 @@
+---
+import Data from '../../data/data.json'
+import SubjectLayout from '../../layouts/SubjectLayout.astro'
+import Layout from '../../layouts/Layout.astro'
+
+
+const BlogData = Data.data[0]
+console.log(BlogData)
+---
+<Layout>
+  <SubjectLayout title={BlogData.title} description={BlogData.description} />
+</Layout>
