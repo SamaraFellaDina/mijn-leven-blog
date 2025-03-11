@@ -1,62 +1,25 @@
 ---
 import "xp.css/dist/XP.css"
 import Layout from "./Layout.astro"
+import data from "../../data.json"
 ---
 <Layout>
-<ul>
-  <li class="window">
-    <a href="/">
+  <ul>
+    {data.data.map(({ title, description, slug, gif }) => (
+      <li class="window">
+        <a href="/">
+          <section class="title-bar">
+            <h2 class="title-bar-text">{title}</h2>
+          </section>				
+          <div class="window-body">
+            <img src={gif} alt={title} />
+            <p>{description}</p>
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
 
-    <section class="title-bar">
-      <h2 class="title-bar-text">Blog</h2>
-    </section>				
-    <div class="window-body">
-      <img src="https://media4.giphy.com/media/L1bqiQs0bibjqG9zXZ/200.webp?cid=790b7611o2de60ye6q8zfkkqw1tp2q0tubos2418kir677aw&ep=v1_gifs_search&rid=200.webp&ct=g">
-        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
-    </div>
-    </a>
-  </li>
-
-  <li class="window">
-    <a href="/">
-
-    <section class="title-bar">
-      <h2 class="title-bar-text">Blog</h2>
-    </section>				
-    <div class="window-body">
-        <img src="https://media2.giphy.com/media/mtkB58uJo4pXi/200.webp?cid=ecf05e47kfe5jltlsatom7w1tisqwz8zzvqt9ht582ob0p3b&ep=v1_gifs_search&rid=200.webp&ct=g">
-        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
-    </div>
-    </a>
-  </li>
-
-  <li class="window">
-    <a href="/">
-
-    <section class="title-bar">
-      <h2 class="title-bar-text">Blog</h2>
-    </section>				
-    <div class="window-body">
-        <img src="https://media1.giphy.com/media/26gsspfbt1HfVQ9va/200.webp?cid=82a1493byyt9wabi1iu9ef558i55l68e9tlb6ln60mma58od&ep=v1_gifs_trending&rid=200.webp&ct=g">
-        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
-    </div>
-    </a>
-  </li>
-
-  <li class="window">
-    <a href="/">
-
-    <section class="title-bar">
-      <h2 class="title-bar-text">Blog</h2>
-    </section>				
-    <div class="window-body">
-        <img src="https://media4.giphy.com/media/JrBKaxElWATK2D015P/giphy.webp?cid=790b7611pgdfx7tk2kgr5vt1s0atrdx43d67cx7rk97e1s22&ep=v1_gifs_search&rid=giphy.webp&ct=g">
-        <p>hier kan je alles vinden over mijn wekelijkse progressie.</p>
-    </div>
-    </a>
-  </li>
-
-</ul>
 </Layout>
 
 <style>

@@ -1,0 +1,26 @@
+{"data":[
+  {
+    "title": "blog",
+    "slug": "blog",
+    "description": "Alles over mijn wekelijkse updates",
+    "gif":"https://media4.giphy.com/media/L1bqiQs0bibjqG9zXZ/200.webp?cid=790b7611o2de60ye6q8zfkkqw1tp2q0tubos2418kir677aw&ep=v1_gifs_search&rid=200.webp&ct=g"
+  },
+  {
+    "title": "we love web",
+    "slug": "we-love-web",
+    "description": "alles over mijn eigen onderzoek. dingen als presentaties, onderzoeken, blogs en meer!",
+    "gif":"https://media3.giphy.com/media/yoJC2GnSClbPOkV0eA/200.webp?cid=790b7611pih931nzylajbi0niezcjp0kyfwzruqkimy00yys&ep=v1_gifs_trending&rid=200.webp&ct=g"
+  },
+  {
+    "title": "projecten",
+    "slug": "projecten",
+    "description": "Alles over de projecten waarmee ik bezig ben",
+    "gif":"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHUwMTF0NmVpa3Z1MWRrenQ4dm1ieGJyMDhtbzVudGVwaDZkcGM0cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/200.webp"
+  },
+  {
+    "title": "bewijslast",
+    "slug": "bewijslast",
+    "description": "Waar moet ik allemaal aan voldoen?",
+    "gif":"https://media4.giphy.com/media/JrBKaxElWATK2D015P/giphy.webp?cid=790b76111u4mwsiz6ld60h92kon0jit890wjdiocr9bag4nk&ep=v1_gifs_search&rid=giphy.webp&ct=g"
+  }
+]}
