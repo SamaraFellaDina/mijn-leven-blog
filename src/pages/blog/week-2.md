@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogLayout.astro"
+layout: ""
 date_start: '03-02-2025'
 date_end: '07-02-2025'
 ---
