@@ -32,7 +32,7 @@ Vandaag ben ik samen met Harold Konickx gaan zitten voor een briefing over zijn 
 
 ### [DeBriefing](../Projecten/haroldk/DeBriefing.md)
 
-Voor deze opdracht heb ik een briefing gemaakt, die heb ik [hier](![](https://media2.giphy.com/media/MNmyTin5qt5LSXirxd/200.webp?cid=790b7611xzbmdehkpxmujwxfx3jt6tgg5l0mg8o27b6m1ji8&ep=v1_gifs_search&rid=200.webp&ct=g)) gedocumenteerd
+Voor deze opdracht heb ik een briefing gemaakt, die heb ik [hier]() gedocumenteerd
 
 ## 02-02-25
 ### maken van een offerte

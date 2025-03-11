@@ -1,9 +1,10 @@
 ---
 import "xp.css/dist/XP.css"
 import Layout from "./Layout.astro"
-import data from "../../data.json"
+import data from "../data/data.json"
 ---
 <Layout>
+
   <ul>
     {data.data.map(({ title, description, slug, gif }) => (
       <li class="window">
